@@ -1,0 +1,34 @@
+.navbar-gradient {
+  background: linear-gradient(90deg, #51CCDB, #0855AE);
+  color: white;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+.Nav-Titulo{
+font-size: 60px;
+}
+
+.btn-squar {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  overflow: hidden;
+  border: none; /* Opcional: remueve el borde del botón */
+}
+
+.btn-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dropdown-menu dropdown-menu-end{
+position: absolute; 
+max-height: 200px; 
+overflow-y: auto;
+}

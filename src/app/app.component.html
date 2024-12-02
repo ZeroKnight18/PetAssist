@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-gradient">
+  <div class="container-fluid">
+    <img src="Icono.ico" alt="Bootstrap" width="80" height="80">
+    <h1 class="Nav-Titulo">PetAssist</h1>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      </ul>
+      <div class="dropdown ms-3">
+        <button class="btn btn-squar" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="Perfil.ico" alt="icono" class="btn-image">
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" routerLink="/Perfil">Perfil</a></li>
+          <li><a class="dropdown-item" routerLink="/Nosotros">Nosotros</a></li>
+          <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
+        </ul>  
+      </div> 
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>

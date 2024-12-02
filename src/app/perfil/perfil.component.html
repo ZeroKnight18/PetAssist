@@ -1,0 +1,58 @@
+<div class="contenido">
+
+<h2 class="Titulo">Perfil</h2>
+
+<button class="btn-gradient1" routerLink="/Inicio">Regresar al Inicio</button>
+<button class="btn-gradient2" routerLink="/Editar">Editar</button>
+
+<form class="Formulario">
+    <div>
+        <label for="pregunta1">Nombre</label>
+        <input type="text" id="pregunta1"  readonly />
+      </div>
+      <div>
+        <label for="pregunta2">Apellido</label>
+        <input type="text" id="pregunta2"  readonly />
+      </div>
+      <div>
+        <label for="pregunta3">Cedula</label>
+        <input type="text" id="pregunta3"  readonly />
+      </div>
+      <div>
+        <label for="pregunta3">Correo</label>
+        <input type="text" id="pregunta4"  readonly />
+      </div>
+</form>
+
+<form class="Formulario2">
+  <div>
+    <label for="pregunta3">Nombre de la Veterinaria</label>
+    <input type="text" id="pregunta5"  readonly />
+  </div>
+  <div>
+    <label for="pregunta3">Direccion</label>
+    <input type="text" id="pregunta6"  readonly />
+  </div>
+  <div>
+    <label for="pregunta3">Telefono</label>
+    <input type="text" id="pregunta7"  readonly />
+  </div>
+
+</form>
+
+<form class="Formulario3">
+  <div>
+    <label for="pregunta3">Horarios</label>
+    <input type="text" class="pregunta8"  readonly />
+  </div>
+  <div>
+    <label for="pregunta3">Servicios</label>
+    <input type="text" class="pregunta9"  readonly />
+  </div>
+</form>
+
+</div>
+
+<img class="Fondo" src="Fondo.jpg">
+
+<router-outlet></router-outlet>
